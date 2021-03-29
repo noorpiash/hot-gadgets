@@ -1,3 +1,7 @@
+.body{
+    margin: 0px;
+}
+
 .width-large{
     width: 100%;
     background-color: #ffffff;
@@ -8,6 +12,7 @@
 .top-banner{
     background-image: url("bg-2.png");
     background-repeat: no-repeat;
+    background-position: left;
 
 }
 
@@ -61,14 +66,19 @@
 
 .height{
     height: 650px;
-  
+    
+    
 }
 
 
-h3,p{
+h3{
     margin-left: 30px;
-
 }
+
+.text-align {
+    margin-left: 30px;
+}
+
 h3{
     color:rgba(247, 9, 219, 0.782);
     font-size: 30px;
@@ -77,8 +87,37 @@ h3{
 p{
 color: dimgrey;
 font-size: 18px;
+
 }
 
 .navbar-brand{
     margin-left: 10px;
+}
+
+#smartphone{
+    margin-bottom:30px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card{
+    padding: 35px 50px 0px 50px;
+    border: none;
+   box-shadow: 0px 0px 15px lightgray;
+    margin: center;
+   
+}
+h5{
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.bottom-banner{
+    background-image: url("bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
