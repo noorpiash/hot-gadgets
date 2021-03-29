@@ -70,6 +70,10 @@
     
 }
 
+.carousel-indicators button{
+    background-color: rgba(247, 9, 219, 0.782) !important;
+} 
+
 
 h3{
     margin-left: 30px;
@@ -120,4 +124,90 @@ h5{
     background-image: url("bg-2.png");
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: -160px;
+}
+
+.see-all   {
+    float: right;
+    text-decoration: none;
+    
+    
+}
+
+#smartphone a{
+    color: rgba(247, 9, 219, 0.782);
+}
+
+#laptop a{
+    color: rgba(247, 9, 219, 0.782);
+}
+
+
+#button-new{
+    margin-left: 75px;
+}
+
+
+#laptop{
+    margin-bottom:30px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+
+.categories{
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.line{
+    width: 85px;
+    height: 7px;
+    background-color:rgba(247, 9, 219, 0.782);
+    border-radius: 5px;
+    margin-left:  605px;
+    margin-top: 20px;
+}
+.new-box-1{
+    width: 250px;
+    height:250px;
+    background-image: url("categories/bag.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px lightgray;
+    
+    
+
+}
+
+
+.new-box-2{
+    width: 250px;
+    height:250px;
+    background-image: url("categories/shoe.png");
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px lightgray;
+    margin-left: 200px;
+    
+    
+
+}
+
+h4{
+    padding-left: 100px;
+    padding-top: 20px;
+   
+}
+
+.footer{
+    text-align: center;
 }
